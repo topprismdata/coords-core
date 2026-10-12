@@ -1,0 +1,186 @@
+{
+ "generated": "2026-10-12",
+ "sources": {
+  "iterative": "Territory-IR/territory_ir/coords.py == SRAF intelligence/coords.py (6-round)",
+  "closed_form": "spatial-ca-benchmark spatial_ca/geometry.py"
+ },
+ "vectors": [
+  {
+   "city": "guangzhou",
+   "wgs_input": [
+    113.2644,
+    23.1291
+   ],
+   "gcj": [
+    113.26972959210308,
+    23.126423339922844
+   ],
+   "wgs_roundtrip_iterative": [
+    113.2644,
+    23.129099999999998
+   ],
+   "wgs_closed_form": [
+    113.26439608121501,
+    23.12909764712337
+   ],
+   "closed_vs_iterative_deg": 4.570876e-06,
+   "out_of_china": false
+  },
+  {
+   "city": "beijing",
+   "wgs_input": [
+    116.4074,
+    39.9042
+   ],
+   "gcj": [
+    116.41364225378803,
+    39.90560334316507
+   ],
+   "wgs_roundtrip_iterative": [
+    116.4074,
+    39.9042
+   ],
+   "wgs_closed_form": [
+    116.40740311227574,
+    39.90420214899194
+   ],
+   "closed_vs_iterative_deg": 3.782119e-06,
+   "out_of_china": false
+  },
+  {
+   "city": "shanghai",
+   "wgs_input": [
+    121.4737,
+    31.2304
+   ],
+   "gcj": [
+    121.47822305927693,
+    31.22845773757727
+   ],
+   "wgs_roundtrip_iterative": [
+    121.47369999999998,
+    31.230399999999996
+   ],
+   "wgs_closed_form": [
+    121.47371515504965,
+    31.2304134258925
+   ],
+   "closed_vs_iterative_deg": 2.0246731e-05,
+   "out_of_china": false
+  },
+  {
+   "city": "wuhu",
+   "wgs_input": [
+    118.3766,
+    31.334
+   ],
+   "gcj": [
+    118.38200492250785,
+    31.332148685926924
+   ],
+   "wgs_roundtrip_iterative": [
+    118.37660000000001,
+    31.334
+   ],
+   "wgs_closed_form": [
+    118.37659606859913,
+    31.333995609053424
+   ],
+   "closed_vs_iterative_deg": 5.893753e-06,
+   "out_of_china": false
+  },
+  {
+   "city": "urumqi",
+   "wgs_input": [
+    87.6168,
+    43.8256
+   ],
+   "gcj": [
+    87.61964994946926,
+    43.82680539311119
+   ],
+   "wgs_roundtrip_iterative": [
+    87.61679999999998,
+    43.82560000000001
+   ],
+   "wgs_closed_form": [
+    87.61679682134397,
+    43.82559826201116
+   ],
+   "closed_vs_iterative_deg": 3.62277e-06,
+   "out_of_china": false
+  },
+  {
+   "city": "mohe",
+   "wgs_input": [
+    122.5386,
+    52.972
+   ],
+   "gcj": [
+    122.545628553161,
+    52.9735127238788
+   ],
+   "wgs_roundtrip_iterative": [
+    122.5386,
+    52.972
+   ],
+   "wgs_closed_form": [
+    122.53862362417814,
+    52.97201497279782
+   ],
+   "closed_vs_iterative_deg": 2.7969384e-05,
+   "out_of_china": false
+  },
+  {
+   "city": "sanya",
+   "wgs_input": [
+    109.5083,
+    18.2479
+   ],
+   "gcj": [
+    109.51239436463267,
+    18.246207234867075
+   ],
+   "wgs_roundtrip_iterative": [
+    109.50829999999999,
+    18.247899999999998
+   ],
+   "wgs_closed_form": [
+    109.50831178224463,
+    18.247911602825358
+   ],
+   "closed_vs_iterative_deg": 1.6536228e-05,
+   "out_of_china": false
+  },
+  {
+   "city": "offshore_usa",
+   "wgs_input": [
+    -74.006,
+    40.7128
+   ],
+   "gcj": [
+    -74.006,
+    40.7128
+   ],
+   "wgs_roundtrip_iterative": [
+    -74.006,
+    40.7128
+   ],
+   "wgs_closed_form": [
+    -74.006,
+    40.7128
+   ],
+   "closed_vs_iterative_deg": 0.0,
+   "out_of_china": true
+  }
+ ],
+ "bd09_example": [
+  113.28818511281695,
+  23.096401315904284
+ ],
+ "guangzhou_mixed_frame": {
+  "offset_m": 621.7,
+  "as_wgs_minus_true_east_m": -545.6,
+  "as_wgs_minus_true_north_m": 298.0
+ }
+}
